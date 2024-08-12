@@ -1,0 +1,164 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body
+{
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.container
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .row
+{   width: 80%;
+    height: 80%;
+    margin-top:10px;
+    
+    
+}
+.row .col
+{
+    width: 100%;
+    display: flex;
+    border: 1px solid rgb(202, 195, 195);
+    padding-top: 10px;
+    
+}
+.col .button i
+{
+    background-color: #979696;
+    color: white;
+    font-size:25px;
+}
+.col .text
+{
+    margin-left:40px;
+}
+.col .text h5
+{
+    border-radius:20px;
+}
+#e1
+{
+    background-color: green;
+    color: white;
+    width: 200px;
+    height:30px;
+    text-align: center;
+
+}
+#e2
+{
+    background-color: rgb(245, 161, 36);
+    color: white;
+    width: 200px;
+    height:30px;
+    text-align: center;
+
+}
+#e3
+{
+    background-color: rgb(84, 6, 129);
+    color: white;
+    width: 200px;
+    height:30px;
+    text-align: center;
+}
+
+
+#e4
+{
+    background-color: rgb(45, 159, 212);
+    color: white;
+    width: 200px;
+    height:30px;
+    text-align: center;
+
+}
+.container .hide
+{
+    height: 0px;
+    overflow: hidden;
+}
+@media(max-width:768px)
+{
+    .col .text h5
+    {
+        border-radius:20px;
+    }
+    .col .text h3
+    {
+        font-size:20px;
+    }
+    .col .text p
+    {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:450px)
+{
+    .col .text h5
+    {
+        font-size:15px;
+        text-align: start;
+    }
+    .col .text h3
+    {
+        font-size:17px;
+        font-weight: bold;
+    }
+    .col .text  p
+    {
+        font-size:14px;
+    }
+
+    #e1
+    {
+        width:150px;
+        padding-top: 3px;
+        border-radius:20px;
+    }
+    #e2
+    {
+        width:150px;
+        padding-top: 3px;
+        border-radius:20px;
+    }
+    #e3
+    {
+        width:150px;
+        padding-top: 3px;
+        border-radius:20px;
+    }
+    #e4
+    {
+        width:150px;
+        padding-top: 3px;
+        border-radius:20px;
+    }
+    #e5
+    {
+        width:150px;
+        padding-top: 3px;
+        border-radius:20px;
+    }
+
+    
+}
+
+
+
+
